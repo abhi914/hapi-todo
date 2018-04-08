@@ -148,9 +148,9 @@ server.route([
     }
 ]);
 
-// server.start((err) => {
-//     if(err) {
-//         console.error(err);
-//     }
-//     console.log(`server started at ${server.info.uri}`);
-// });
+server.start((err) => {
+    if(err) {
+        console.error(err);
+    }
+    console.log(`server started at ${server.info.uri}`);
+});
